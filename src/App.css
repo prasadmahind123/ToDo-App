@@ -23,15 +23,10 @@ html{
 }
 .App form button{
     flex-basis: 20%;
-    border-radius: 8px;
-    border: 1px solid transparent;
-    padding: .6em 1.2em;
-    font-size: 1em;
-    font-weight: 500;
-    font-family: inherit;
-    background-color: #1a1a1a;
-    cursor: pointer;
-    transition: border-color .25s;
+    border : 1px solid #222;
+    border-radius: 15px;
+    background-color:#1a1a1a;
+    
 }
 .content{
   background-color: rgb(255, 255, 255 , 0.5);
