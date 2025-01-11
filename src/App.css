@@ -23,10 +23,6 @@ html{
 }
 .App form button{
     flex-basis: 20%;
-    border : 1px solid #222;
-    border-radius: 15px;
-    background-color:#1a1a1a;
-    
 }
 .content{
   background-color: rgb(255, 255, 255 , 0.5);
@@ -103,5 +99,9 @@ html{
     flex-basis: 40%;
     font-size: 1rem;
     padding: 0.5rem;
+    border : 1px solid #222;
+    border-radius: 15px;
+    background-color:#1a1a1a;
+    
   }
 }
