@@ -66,6 +66,7 @@
     padding: 1rem;
   }
   .content{
+     background-color: rgb(255, 255, 255 , 0.5);
     width : 80%;
     transform: translateX(0rem);
     margin: 4rem auto;
