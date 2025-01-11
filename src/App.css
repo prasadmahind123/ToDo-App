@@ -4,9 +4,7 @@
   padding: 2rem;
   height: 90vh;
 }
-html{
-  background-color: #242424;
-}
+
 .App{
   width:  90vw;
   margin: auto;
@@ -68,13 +66,14 @@ html{
   #root{
     padding: 1rem;
   }
+  html{
+  background-color: #242424;
+  }
   .content{
-     background-color: rgb(255, 255, 255 , 0.5);
+    background-color: rgb(255, 255, 255 , 0.5);
     width : 80%;
     transform: translateX(0rem);
     margin: 4rem auto;
-   
-
   }
   .content ul li{
     flex-wrap: wrap;
@@ -102,6 +101,7 @@ html{
     border : 1px solid #222;
     border-radius: 15px;
     background-color:#1a1a1a;
+    color:#fff
     
   }
 }
