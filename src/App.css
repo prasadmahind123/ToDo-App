@@ -4,7 +4,9 @@
   padding: 2rem;
   height: 90vh;
 }
-
+  html{
+  background-color: #242424;
+  }
 .App{
   width:  90vw;
   margin: auto;
