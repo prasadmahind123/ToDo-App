@@ -22,7 +22,16 @@ html{
   flex-basis: 60%;
 }
 .App form button{
-  flex-basis: 20%;
+    flex-basis: 20%;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: .6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: #1a1a1a;
+    cursor: pointer;
+    transition: border-color .25s;
 }
 .content{
   background-color: rgb(255, 255, 255 , 0.5);
