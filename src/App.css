@@ -4,6 +4,9 @@
   padding: 2rem;
   height: 90vh;
   background-color: #242424;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
 }
 .App{
   width:  90vw;
