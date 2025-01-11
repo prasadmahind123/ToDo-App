@@ -3,10 +3,9 @@
   margin: 0 auto 0 auto;
   padding: 2rem;
   height: 90vh;
+}
+body{
   background-color: #242424;
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
 }
 .App{
   width:  90vw;
