@@ -15,7 +15,7 @@ function App() {
       toast.error('Task is empty')
       return
     }
-    if(!toList.some(existingTask => existingTask.toLowerCase() === task.toLowerCase())){
+    if(!toList.some(existingTask => existingTask.toLowerCase().trim() === task.toLowerCase().trim())){
       setToList([...toList, task])
       toast.success('Task  added successfully!')
       event.target.toName.value = ''
